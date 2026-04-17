@@ -96,9 +96,9 @@
 			margin: 30,
 			stagePadding: 0,
 			nav: false,
-			touchDrag: false,
-			mouseDrag: false,
-			pullDrag: false,
+			touchDrag: true,
+			mouseDrag: true,
+			pullDrag: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
