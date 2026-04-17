@@ -8412,14 +8412,20 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 650px;
-    z-index: 0; }
+    z-index: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       height: 650px;
       position: relative;
-      z-index: 0; }
+      z-index: 0;
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-overflow-scrolling: touch; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
@@ -8461,6 +8467,11 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text p {
               color: rgba(255, 255, 255, 0.7);
               font-size: 23px; } }
+    .owl-carousel.home-slider .owl-stage,
+    .owl-carousel.home-slider .owl-stage-outer {
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-overflow-scrolling: touch; }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
       bottom: 60px !important;
